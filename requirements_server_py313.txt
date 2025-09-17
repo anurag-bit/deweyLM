@@ -1,0 +1,57 @@
+# Server Requirements - Python 3.13 Compatible
+# Optimized for AMD MI300X GPU Server with ROCm
+
+# Core ML packages (Python 3.13 compatible versions)
+torch>=2.4.0
+torchvision>=0.19.0  
+torchaudio>=2.4.0
+
+# Transformers and model handling
+transformers>=4.40.0
+accelerate>=0.28.0
+datasets>=2.19.0
+huggingface-hub>=0.23.0
+safetensors>=0.4.0
+tokenizers>=0.19.0
+
+# Data processing (Python 3.13 compatible)
+numpy>=1.26.0
+pandas>=2.2.0
+scipy>=1.12.0
+scikit-learn>=1.4.0
+
+# PDF processing
+PyPDF2>=3.0.0
+pdfplumber>=0.10.0
+pymupdf>=1.24.0
+
+# Vector databases and similarity search (CPU version for compatibility)
+faiss-cpu>=1.8.0
+sentence-transformers>=2.7.0
+
+# Text processing
+tiktoken>=0.6.0
+nltk>=3.8.0
+
+# Utilities and monitoring
+tqdm>=4.66.0
+psutil>=5.9.0
+memory-profiler>=0.61.0
+
+# Web and API
+fastapi>=0.110.0
+uvicorn>=0.29.0
+
+# GUI and visualization
+streamlit>=1.33.0
+plotly>=5.20.0
+altair>=5.3.0
+
+# Development and debugging
+ipython>=8.23.0
+jupyter>=1.0.0
+
+# Optional: Advanced features (install separately if needed)
+# bitsandbytes>=0.43.0  # May not work with Python 3.13
+# peft>=0.10.0          # May not work with Python 3.13
+# trl>=0.8.0            # May not work with Python 3.13
